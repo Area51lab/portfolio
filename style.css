@@ -1,0 +1,99 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.en-progreso {
+    background: #ffcc00;
+    color: #222;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 2px solid #e6b800;
+    animation: parpadeo 1.2s infinite;
+}
+
+/* efecto de aviso */
+@keyframes parpadeo {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.6; }
+}
+
+
+.foto-perfil {
+    width: 100px;   /* tamaño ideal tipo CV */
+    height: 150px;
+    border: 2px solid #444; /* borde sobrio */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2); /* sombra ligera */
+    object-fit: cover; /* ajusta la imagen */
+    margin-bottom: 10px;
+}
+
+
+/* Fondo oscuro elegante */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #0d1117;
+  color: #ffffff;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Contenedor de partículas */
+#tsparticles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Secciones */
+header, section, footer {
+  padding: 50px 15%;
+  text-align: center;
+}
+
+/* Títulos principales */
+#titulo {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #00d4ff;
+  text-shadow: 0 0 15px rgba(0, 212, 255, 0.8);
+}
+
+#descripcion {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #ddd;
+}
+
+/* Subtítulos */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #00ffea;
+  text-shadow: 0 0 10px rgba(0, 255, 234, 0.7);
+}
+
+/* Enlaces */
+a {
+  color: #00d4ff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #00ffea;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  margin-top: 40px;
+  color: #bbb;
+}
