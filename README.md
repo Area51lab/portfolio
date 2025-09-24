@@ -2,7 +2,7 @@
 
 Bienvenido a mi portfolio de desarrollo frontend. Aquí encontrarás proyectos creados con tecnologías modernas y orientados a la construcción de interfaces atractivas y funcionales.  
 
-🌐 **Visita mi portfolio online** 👉 [Ver Página](https://TU-USUARIO.github.io/portfolio/)  
+🌐 **Visita mi portfolio online** 👉 [Ver Página](https://Area51lab.github.io/portfolio/)  
 
 ---
 
