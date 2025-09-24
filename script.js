@@ -1,6 +1,6 @@
 tsParticles.load("tsparticles", {
   background: {
-    color: "#0d1117"
+    color: "#000000ff"
   },
   fpsLimit: 60,
   interactivity: {
